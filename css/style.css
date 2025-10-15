@@ -73,6 +73,16 @@ p {
     font-size: 20px;
 }
 
+.btn-white {
+    background-color: white;
+    color: #9792E4;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 40%;
+    font-size: 20px;
+}
+
 /* CARDS */
 
 .card {
@@ -117,6 +127,7 @@ header {
     right: 0;
     left: 0;
     top: 0;
+    z-index: 1;
 }
 
 header .col-50 {
@@ -347,4 +358,49 @@ h2 {
 .sec5 button {
     width: 70%;
     margin: 40px 0;
+}
+
+/* SECTION6 */
+
+.sec6 {
+    background-color: #9792E4;
+}
+
+.content-sec6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin: 3rem;
+}
+
+.content-sec6 h3 {
+    margin: 40px;
+}
+
+.content-sec6 h1 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.content-sec6 h1:last-of-type {
+    color: #FDC15F;
+}
+
+.content-sec6 button {
+    margin: 20px 0;
+    width: 100%;
+    height: 70px;
+    border-radius: 30px;
+}
+
+.content-sec6 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-sec6 li {
+    margin: 0 10px;
 }
