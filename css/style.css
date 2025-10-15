@@ -27,9 +27,6 @@
 
 .col-70 {
     width: 100%;
-    height: 100px;
-    background-color: purple;
-    border: 2px solid black
 }
 
 .col-100 {
@@ -62,6 +59,18 @@ p {
 
 .text-left {
     text-align: left;
+}
+
+/* BUTTON */
+
+.btn-purple {
+    background-color: #9792E4;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 40%;
+    font-size: 20px;
 }
 
 /* CARDS */
@@ -298,12 +307,44 @@ h2 {
     line-height: 45px;
 }
 
-.content-sec4-card-type2 button {
-    background-color: #9792E4;
-    color: white;
-    padding: 10px;
-    border-radius: 20px;
-    border: none;
-    width: 40%;
-    font-size: 20px;
+/* SECTION 5 */
+
+.sec5 h1 {
+    color: #9792E4;
+    font-size: 45px;
+}
+
+.sec5 p {
+    line-height: 35px;
+    font-size: 25px;
+    margin: 40px 0;
+}
+
+.img-quote {
+    margin-bottom: 150px;
+}
+
+.img-quote img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.img-quote i {
+    color: #9792E4;
+    font-size: 80px;
+    position: relative;
+    top: 0;
+    left: 150px;
+}
+
+.sec5 h2 {
+    font-size: 40px;
+}
+
+.sec5 button {
+    width: 70%;
+    margin: 40px 0;
 }
