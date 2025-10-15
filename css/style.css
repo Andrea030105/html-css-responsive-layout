@@ -11,4 +11,85 @@
 
 .row {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.col-30 {
+    width: 100%;
+    background-color: blue;
+    border: 2px solid black
+}
+
+.col-50 {
+    width: 100%;
+}
+
+.col-70 {
+    width: 100%;
+    height: 100px;
+    background-color: purple;
+    border: 2px solid black
+}
+
+.col-100 {
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black
+}
+
+section {
+    margin: 3rem;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+i {
+    color: white;
+}
+
+.card {
+    background-color: #B5DDFF;
+    border-radius: 30px;
+    padding: 40px 20px;
+}
+
+/* HEADER */
+
+header {
+    background-color: #0084FD;
+    height: 75px;
+}
+
+header .col-50 {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo-header img {
+    padding: 10px;
+    width: 50%;
+}
+
+.hamburger button {
+    border: none;
+    background-color: transparent;
+    font-size: 35px;
+}
+
+/* SECTION 1 */
+
+.sec1 h2 {
+    color: #0084FD;
+    font-size: 30px;
+}
+
+.sec1 p {}
