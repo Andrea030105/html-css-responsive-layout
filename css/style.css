@@ -38,7 +38,7 @@
 }
 
 section {
-    margin: 3rem;
+    margin: 3rem 0;
 }
 
 .flex-row {
@@ -51,6 +51,14 @@ section {
 
 i {
     color: white;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px
 }
 
 /* HEADER */
@@ -126,4 +134,57 @@ header .col-50 {
 .card-icon i {
     color: #0084FD;
     font-size: 120px;
+}
+
+/* SECTION 2 */
+
+.sec2 {
+    background-color: #9792E4;
+    padding: 40px 0;
+    color: white;
+}
+
+.sec2 img {
+    width: 100%;
+}
+
+.sec2 h2 {
+    margin: 40px 0;
+}
+
+.card-type2 {
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 30px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-type2 h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.card-type2 p {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.card-type2 button {
+    background-color: #9792E4;
+    font-size: 25px;
+    width: 20%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    padding: 30px;
 }
