@@ -34,7 +34,7 @@
 }
 
 section {
-    margin: 3rem 0;
+    margin: 75px 0;
 }
 
 .flex-row {
@@ -364,6 +364,7 @@ h2 {
 
 .sec6 {
     background-color: #9792E4;
+    margin-bottom: 0;
 }
 
 .content-sec6 {
@@ -372,7 +373,7 @@ h2 {
     align-items: center;
     color: white;
     text-align: center;
-    margin: 3rem;
+    margin: 40px;
 }
 
 .content-sec6 h3 {
