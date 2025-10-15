@@ -404,3 +404,20 @@ h2 {
 .content-sec6 li {
     margin: 0 10px;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #333333;
+}
+
+footer p {
+    margin: 40px 0;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+footer a {
+    color: #9792E4;
+}
