@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* UTILITY */
+
 .container-75 {
     width: 75%;
     margin: 0 auto;
@@ -62,11 +64,50 @@ p {
     text-align: left;
 }
 
+/* CARDS */
+
+.card {
+    background-color: #B5DDFF;
+    border-radius: 30px;
+    padding: 40px 30px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.card-type2 {
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 30px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-type3 {
+    background-color: #9792E4;
+    border-radius: 30px;
+    padding: 40px 30px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
 /* HEADER */
 
 header {
     background-color: #0084FD;
     height: 75px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 
 header .col-50 {
@@ -88,26 +129,18 @@ header .col-50 {
 
 /* SECTION 1 */
 
-.card {
-    background-color: #B5DDFF;
-    border-radius: 30px;
-    padding: 40px 30px;
-    margin: 40px 0;
-    text-align: center;
-}
-
-.card h2 {
+.content-sec1-card h2 {
     color: #0084FD;
     font-size: 30px;
 }
 
-.card p {
+.content-sec1-card p {
     font-size: 20px;
     margin: 20px 0;
     color: #5A6E7F;
 }
 
-.card button {
+.content-sec1-card button {
     background-color: #0084FD;
     font-size: 25px;
     width: 100%;
@@ -115,16 +148,16 @@ header .col-50 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     margin: 20px 0;
 }
 
-.card button p {
+.content-sec1-card button p {
     color: white;
 }
 
-.card img {
+.content-sec1-card img {
     width: 100%;
 }
 
@@ -154,31 +187,19 @@ header .col-50 {
     margin: 40px 0;
 }
 
-.card-type2 {
-    background-color: white;
-    border-radius: 30px;
-    padding: 40px 30px;
-    margin: 40px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.card-type2 h2 {
+.content-sec2-card-type2 h2 {
     font-size: 30px;
     color: black;
 }
 
-.card-type2 p {
+.content-sec2-card-type2 p {
     font-size: 25px;
     color: black;
     margin-bottom: 20px;
 
 }
 
-.card-type2 button {
+.content-sec2-card-type2 button {
     background-color: #9792E4;
     font-size: 25px;
     width: 20%;
@@ -213,37 +234,76 @@ header .col-50 {
     font-size: 50px;
 }
 
-.card-type3 {
-    background-color: #9792E4;
-    border-radius: 30px;
-    padding: 40px 30px;
-    margin: 40px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.card-type3 img {
+.content-sec3-card-type3 img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.card-type3 h2 {
+.content-sec3-card-type3 h2 {
     font-size: 30px;
     color: white;
     text-transform: uppercase;
     margin: 20px 0;
 }
 
-.card-type3 i {
+.content-sec3-card-type3 i {
     display: inline-block;
 }
 
-.card-type3 p {
+.content-sec3-card-type3 p {
     font-size: 30px;
     color: white;
+}
+
+/* SECTION 4 */
+
+.sec4 {
+    background-color: #9792E4;
+    padding: 40px 0;
+}
+
+.title-sec4 h2 {
+    color: white;
+    text-align: center;
+}
+
+.content-sec4-card-type2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.content-sec4-card-type2 h1 {
+    font-size: 50px;
+}
+
+.content-sec4-card-type2 h2 {
+    font-size: 35px;
+}
+
+.content-sec4-card-type2 h1,
+h2 {
+    color: #9792E4;
+    margin: 10px 0;
+}
+
+.content-sec4-card-type2 p {
+    color: #5A6E7F;
+    margin: 30px 0;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.content-sec4-card-type2 button {
+    background-color: #9792E4;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 40%;
+    font-size: 20px;
 }
