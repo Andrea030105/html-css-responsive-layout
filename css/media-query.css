@@ -4,18 +4,50 @@
     }
 
     .row {
-        display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .sec1 .col-70 {
+        width: 65%;
+    }
+
+    .sec1 .col-30 {
+        width: 30%;
+    }
+
+    .container-img-sec1 {
+        width: 70%;
     }
 
     .card {
-        min-height: 800px;
+        min-height: 750px;
     }
 
-    .col-30 {
+    /* SECTION 4 */
+
+    .sec4 .col-30 {
+        width: 45%;
+    }
+
+    .card-col-50-right {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+    .card-row {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-col-50,
+    .card-col-50-right {
         width: 50%;
     }
-
-
 }
