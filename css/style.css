@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* UTILITY */
@@ -34,7 +35,7 @@
 }
 
 section {
-    margin: 75px 0;
+    margin: 4rem 0;
 }
 
 .flex-row {
@@ -50,11 +51,11 @@ i {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 p {
-    font-size: 20px
+    font-size: 1.5rem
 }
 
 .text-left {
@@ -66,11 +67,11 @@ p {
 .btn-purple {
     background-color: #9792E4;
     color: white;
-    padding: 10px;
+    padding: 0.5rem;
     border-radius: 20px;
     border: none;
     width: 40%;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .btn-white {
@@ -133,44 +134,43 @@ header {
 header .col-50 {
     display: flex;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 1rem;
 }
 
 .logo-header img {
-    padding: 10px;
-    width: 50%;
+    padding: 1rem;
+    width: 7rem;
 }
 
 .hamburger button {
     border: none;
     background-color: transparent;
-    font-size: 35px;
+    font-size: 2rem;
 }
 
 /* SECTION 1 */
 
 .content-sec1-card h2 {
     color: #0084FD;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .content-sec1-card p {
-    font-size: 20px;
-    margin: 20px 0;
+    font-size: 1.5rem;
     color: #5A6E7F;
 }
 
 .content-sec1-card button {
     background-color: #0084FD;
-    font-size: 25px;
+    font-size: 2rem;
     width: 100%;
-    height: 45px;
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
     border: none;
-    margin: 20px 0;
+    margin: 1rem 0;
 }
 
 .content-sec1-card button p {
@@ -195,7 +195,7 @@ header .col-50 {
 
 .sec2 {
     background-color: #9792E4;
-    padding: 40px 0;
+    padding: 2rem 0;
     color: white;
 }
 
@@ -204,54 +204,50 @@ header .col-50 {
 }
 
 .sec2 h2 {
-    margin: 40px 0;
+    margin: 3rem 0;
+    color: white;
 }
 
 .content-sec2-card-type2 h2 {
-    font-size: 30px;
     color: black;
 }
 
 .content-sec2-card-type2 p {
-    font-size: 25px;
+    font-size: 1.6rem;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 
 }
 
 .content-sec2-card-type2 button {
     background-color: #9792E4;
-    font-size: 25px;
+    font-size: 2rem;
     width: 20%;
-    height: 45px;
+    height: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     border: none;
-    padding: 30px;
+    padding: 2rem;
 }
 
 /* SECTION 3 */
 
 .sec3 h3 {
     text-align: center;
-    margin: 20px 0;
-    font-size: 20px;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .sec3 p {
     text-align: center;
-    margin: 20px 0;
-    font-size: 30px;
-    line-height: 45px;
+    font-size: 2rem;
 }
 
 .sec3 h2 {
     color: #9792E4;
     text-align: center;
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 .content-sec3-card-type3 img {
@@ -262,18 +258,13 @@ header .col-50 {
 }
 
 .content-sec3-card-type3 h2 {
-    font-size: 30px;
+    font-size: 2rem;
     color: white;
     text-transform: uppercase;
-    margin: 20px 0;
-}
-
-.content-sec3-card-type3 i {
-    display: inline-block;
 }
 
 .content-sec3-card-type3 p {
-    font-size: 30px;
+    font-size: 2rem;
     color: white;
 }
 
@@ -281,7 +272,7 @@ header .col-50 {
 
 .sec4 {
     background-color: #9792E4;
-    padding: 40px 0;
+    padding: 2rem 0;
 }
 
 .title-sec4 h2 {
@@ -290,49 +281,41 @@ header .col-50 {
 }
 
 .content-sec4-card-type2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     text-align: left;
 }
 
 .content-sec4-card-type2 h1 {
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 .content-sec4-card-type2 h2 {
-    font-size: 35px;
+    font-size: 2.5rem;
 }
 
 .content-sec4-card-type2 h1,
 h2 {
     color: #9792E4;
-    margin: 10px 0;
 }
 
 .content-sec4-card-type2 p {
     color: #5A6E7F;
-    margin: 30px 0;
-    font-size: 25px;
-    line-height: 45px;
+    margin: 1rem 0;
 }
 
 /* SECTION 5 */
 
 .sec5 h1 {
     color: #9792E4;
-    font-size: 45px;
+    font-size: 3rem;
 }
 
 .sec5 p {
-    line-height: 35px;
-    font-size: 25px;
-    margin: 40px 0;
+    margin: 2rem 0;
 }
 
 .img-quote {
-    margin-bottom: 150px;
+    margin-bottom: 10rem;
 }
 
 .img-quote img {
@@ -352,12 +335,12 @@ h2 {
 }
 
 .sec5 h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .sec5 button {
-    width: 70%;
-    margin: 40px 0;
+    width: 80%;
+    margin: 2rem 0;
 }
 
 /* SECTION6 */
@@ -373,16 +356,15 @@ h2 {
     align-items: center;
     color: white;
     text-align: center;
-    margin: 40px;
 }
 
 .content-sec6 h3 {
-    margin: 40px;
+    margin: 3rem;
 }
 
 .content-sec6 h1 {
-    font-size: 40px;
-    margin: 20px;
+    font-size: 3rem;
+    margin: 1rem;
 }
 
 .content-sec6 h1:last-of-type {
@@ -390,9 +372,9 @@ h2 {
 }
 
 .content-sec6 button {
-    margin: 20px 0;
+    margin: 2rem 0;
     width: 100%;
-    height: 70px;
+    height: 3rem;
     border-radius: 30px;
 }
 
@@ -403,7 +385,7 @@ h2 {
 }
 
 .content-sec6 li {
-    margin: 0 10px;
+    margin: 0 1rem;
 }
 
 /* FOOTER */
@@ -413,10 +395,10 @@ footer {
 }
 
 footer p {
-    margin: 40px 0;
+    margin: 3rem 0;
     text-align: center;
     color: white;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 footer a {
