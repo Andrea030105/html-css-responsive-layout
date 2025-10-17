@@ -44,6 +44,43 @@
 /* DESKTOP */
 
 @media screen and (min-width: 992px) {
+
+    /* HAMBURGER */
+
+    .hamburger {
+        display: none;
+    }
+
+    /* MAIN-MENU */
+
+    .main-menu {
+        display: flex;
+    }
+
+    .main-menu ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin: 0 1rem;
+    }
+
+    .main-menu li {
+        margin: 0 3rem;
+        width: 5rem;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    .main-menu a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .main-menu button {
+        width: 8rem;
+    }
+
+    /* CONTAINER-WIDTH */
     .container-75 {
         width: 90%;
     }
@@ -165,7 +202,7 @@
     /* SECTION4 */
 
     .card-type2 {
-        min-height: 0;
+        min-height: 750px;
     }
 
     /* SECTION6 */
