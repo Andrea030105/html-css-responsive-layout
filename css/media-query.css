@@ -25,6 +25,10 @@
         min-height: 750px;
     }
 
+    .sec6 {
+        padding-bottom: 2rem;
+    }
+
     /* SECTION 4 */
 
     .sec4 .col-30 {
@@ -40,6 +44,10 @@
 /* DESKTOP */
 
 @media screen and (min-width: 992px) {
+    .container-75 {
+        width: 90%;
+    }
+
     .card-row {
         display: flex;
         width: 100%;
@@ -49,5 +57,26 @@
     .card-col-50,
     .card-col-50-right {
         width: 50%;
+    }
+
+    .card {
+        min-height: 650px;
+    }
+
+    .container-img-sec1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card-col-50 h2,
+    .card-col-50 p,
+    .card-col-50 button {
+        margin: 3rem 0;
+    }
+
+    .card-col-50 h2 {
+        font-size: 2rem;
     }
 }
