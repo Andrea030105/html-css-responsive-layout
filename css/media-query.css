@@ -25,19 +25,41 @@
         min-height: 750px;
     }
 
-    .sec6 {
-        padding-bottom: 2rem;
-    }
-
     .card-col-50-right {
         display: flex;
         justify-content: center;
+    }
+
+    /* SECTION 3 */
+
+    .sec3 .row-testimonial {
+        flex-direction: row;
+    }
+
+    .sec3 .img-testimonial {
+        margin-right: 2rem;
+    }
+
+    .sec3 .content-testimonial p,
+    .sec3 .content-testimonial h2 {
+        text-align: start;
+    }
+
+    .sec3 .content-testimonial p,
+    .sec3 .content-testimonial h2 {
+        font-size: 1.4rem;
     }
 
     /* SECTION 4 */
 
     .sec4 .col-30 {
         width: 45%;
+    }
+
+    /* SECTION 6 */
+
+    .sec6 {
+        padding-bottom: 2rem;
     }
 }
 
