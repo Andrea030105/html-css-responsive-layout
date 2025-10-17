@@ -105,4 +105,40 @@
     .content-sec4-card-type2 button {
         margin: 1rem 0;
     }
+
+    /* SECTION5 */
+
+    .sec5 .col-70 {
+        width: calc(60% - 3rem);
+    }
+
+    .sec5 .col-30 {
+        width: calc(40% - 3rem);
+    }
+
+    .sec5 .col-30,
+    .sec5 .col-70 {
+        margin: 0 1rem;
+    }
+
+    .sec5 p {
+        font-size: 1.2rem;
+    }
+
+    .sec5 h2 {
+        font-size: 2rem;
+    }
+
+    .sec5 button {
+        width: 100%;
+    }
+
+    /* SECTION6 AND FOOTER*/
+
+    .sec6 .container-75,
+    footer .container-75 {
+        width: 60%;
+    }
 }
+
+/* DEKSTOP EXTRA LARGE */
