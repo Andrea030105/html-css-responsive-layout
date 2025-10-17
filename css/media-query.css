@@ -142,3 +142,35 @@
 }
 
 /* DEKSTOP EXTRA LARGE */
+
+@media screen and (min-width: 1200px) {
+
+    /* SECTION1 */
+
+    .card {
+        min-height: 0;
+        max-height: 400px;
+    }
+
+    .card-col-50 h2,
+    .card-col-50 p,
+    .card-col-50 button {
+        margin: 1rem 0;
+    }
+
+    .container-img-sec1 {
+        width: 55%;
+    }
+
+    /* SECTION4 */
+
+    .card-type2 {
+        min-height: 0;
+    }
+
+    /* SECTION6 */
+
+    .sec6 button {
+        width: 20%;
+    }
+}
